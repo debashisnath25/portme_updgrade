@@ -15,7 +15,28 @@
 	<?php include("navbar.php");?>
 	<div id="content">
 		<div class="grid_container">
-			<div class="grid_12">
+		
+			<div class="grid_2 full_block" style="margin-top:10px;">
+				<div id="secondary_nav">
+					<ul id="sidenav" class="accordion_mnu collapsible ui-sortable">
+						<li><a href="#"><span class="nav_icon computer_imac"></span> Clients<span class="up_down_arrow">&nbsp;</span></a>
+							<ul class="acitem" style="display: none;">
+								<li><a href="dashboard.html"><span class="list-icon">&nbsp;</span>Listing Clients</a></li>
+								<li><a href="dashboard-01.html"><span class="list-icon">&nbsp;</span>Add New Clients</a></li>
+							</ul>
+						</li>
+						<li><a href="#"><span class="nav_icon list_images"></span> Vendors<span class="up_down_arrow">&nbsp;</span></a>
+							<ul class="acitem" style="display: none;">
+								<li><a href="dashboard.html"><span class="list-icon">&nbsp;</span>Listing Vendors</a></li>
+								<li><a href="dashboard-01.html"><span class="list-icon">&nbsp;</span>Add New Vendors</a></li>
+							</ul>
+						</li>
+						<!--<li><a href="table.html"><span class="nav_icon blocks_images"></span> Tables</a></li>-->
+					</ul>
+				</div>
+			</div>
+
+			<div class="grid_10">
 				<div class="widget_wrap">
 					<div class="widget_top">
 						<div class="grid_10">
