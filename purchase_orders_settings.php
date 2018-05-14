@@ -4,7 +4,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width"/>
-<title>Portme | Invoice Settings</title>
+<title>Portme | Purchase Order Settings</title>
 <?php include("metalinks.php");?><!-- Jquery -->
 </head>
 <body id="theme-default" class="full_block">
@@ -18,7 +18,7 @@
 				<div class="widget_wrap">
 					<div class="widget_top">
 						<span class="h_icon list"></span>
-						<h6>Invoice Settings</h6>
+						<h6>Purchase Order Settings</h6>
 						<div id="widget_tab">
 							<ul>
 								<li><a href="#tab1" class="active_tab">Options</a></li>
@@ -54,14 +54,7 @@
 										<span class="clear"></span>
 									</div>
 									<div class="form_grid_12 multiline">
-										<label class="field_title">Show Net Received in the total section</label>
-										<div class="form_input on_off alpha">
-												<input type="checkbox" checked="checked" id="on_off_on"/>
-											</div>
-										<span class="clear"></span>
-									</div>
-									<div class="form_grid_12 multiline">
-										<label class="field_title">Show Contact person in Bill to section</label>
+										<label class="field_title">Show Contact person in vendor section</label>
 										<div class="form_input on_off alpha">
 												<input type="checkbox" checked="checked" id="on_off_on"/>
 											</div>
@@ -108,34 +101,7 @@
 											<li>
 											<div class="form_grid_6">
 												<div class="form_grid_12 multiline">
-													<label class="field_title">Invoice Title</label>
-														<div class="form_input">
-															<div class="form_grid_5 alpha">
-																<input name="mobile" type="text"/>
-															</div>
-														</div>
-													<span class="clear"></span>
-												</div>
-												<div class="form_grid_12 multiline">
-													<label class="field_title">Retail Invoice title</label>
-														<div class="form_input">
-															<div class="form_grid_5 alpha">
-																<input name="mobile" type="text"/>
-															</div>
-														</div>
-													<span class="clear"></span>
-												</div>
-												<div class="form_grid_12 multiline">
-													<label class="field_title">Tax invoice title</label>
-														<div class="form_input">
-															<div class="form_grid_5 alpha">
-																<input name="mobile" type="text"/>
-															</div>
-														</div>
-													<span class="clear"></span>
-												</div>
-												<div class="form_grid_12 multiline">
-													<label class="field_title">Excise Invoice title</label>
+													<label class="field_title">Purchase Order Title</label>
 														<div class="form_input">
 															<div class="form_grid_5 alpha">
 																<input name="mobile" type="text"/>
@@ -157,15 +123,6 @@
 														<div class="form_input">
 															<div class="form_grid_5 alpha">
 																<input name="mobile" type="text"/>
-															</div>
-														</div>
-													<span class="clear"></span>
-												</div>
-												<div class="form_grid_12 multiline">
-													<label class="field_title">po number</label>
-														<div class="form_input">
-															<div class="form_grid_5 alpha">
-																<input name="mobile" type="text" />
 															</div>
 														</div>
 													<span class="clear"></span>

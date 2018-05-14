@@ -86,13 +86,25 @@
 													</blockquote>
 												</div>
 											</div>
+
+											<div class="form_grid_12 full_block">
+												<div class="form_grid_12">
+													<div class="widget_content" style="text-align:center;">
+														<button type="submit" class="btn_small btn_blue"><span>Update</span></button>
+													<button type="reset" class="btn_small btn_blue"><span>Reset</span></button>
+													</div>
+												</div>
+											</div>
 										  </li>
 										</ul>
 									</fieldset>
+									
 									</li>
 								</ul>
 							</div>
-
+							
+						</form>
+						<form method="post" class="form_container left_label">
 							<div class="">
 								<ul>
 									<li>
@@ -132,26 +144,20 @@
 													</div>
 												</div>
 											</div>
-											
+											<div class="form_grid_12 full_block">
+												<div class="form_grid_12">
+													<div class="widget_content" style="text-align:center;">
+														<button type="submit" class="btn_small btn_blue"><span>Change Password</span></button>
+													<button type="reset" class="btn_small btn_blue"><span>Reset</span></button>
+													</div>
+												</div>
+											</div>
 										  </li>
 										</ul>
 									</fieldset>
 									</li>
 								</ul>
 							</div>
-
-							<ul>
-								<li>
-								<div class="form_grid_12 full_block">
-									<div class="form_grid_12">
-										<div class="widget_content" style="text-align:center;">
-											<button type="submit" class="btn_small btn_blue"><span>Submit</span></button>
-										<button type="reset" class="btn_small btn_blue"><span>Reset</span></button>
-										</div>
-									</div>
-								</div>
-								</li>
-							</ul>
 						</form>
 					</div>
 				</div>
