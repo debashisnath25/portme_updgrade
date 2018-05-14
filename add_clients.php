@@ -13,7 +13,8 @@
 	<?php include("navbar.php");?>
 	<div id="content">
 		<div class="grid_container">
-			<div class="grid_12 full_block">
+			<?php include("client_sidebar.php");?>
+			<div class="grid_10 full_block">
 				<div class="widget_wrap">
 					<div class="widget_top">
 						<span class="h_icon list"></span>

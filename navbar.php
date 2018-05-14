@@ -40,8 +40,8 @@
 			</div>
 			</li>-->
 			<!--<li><a href="vendors.php"><span class="stats_icon administrative_docs_sl"></span><span class="label">Vendors</span></a></li>-->
-			<li><a href="items.php"><span class="stats_icon finished_work_sl"></span><span class="label">Products</span></a></li>
-			<li><a href="create_invoice.php"><span class="stats_icon archives_sl"></span><span class="label">Invoice</span></a></li>
+			<li><a href="listing_products.php"><span class="stats_icon finished_work_sl"></span><span class="label">Products</span></a></li>
+			<li><a href="listing_invoice.php"><span class="stats_icon archives_sl"></span><span class="label">Invoice</span></a></li>
 			<li><a href="#"><span class="stats_icon bank_sl"></span><span class="label">Quotation</span></a></li>
 			<li><a href="#"><span class="stats_icon address_sl"></span><span class="label">Challan</span></a></li>
 			<li><a href="#"><span class="stats_icon folder_sl"></span><span class="label">Credit Notes</span></a></li>
