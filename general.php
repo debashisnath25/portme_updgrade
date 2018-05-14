@@ -27,7 +27,7 @@
 									<li>
 										<ul>
 											<li>
-											<div class="form_grid_12">
+											<div class="form_grid_12" style="margin-top:5px;">
 											<label class="field_title">Date Format</label>
 												<div class="form_input">
 													<select data-placeholder="choose date format" style=" width:300px" class="chzn-select" tabindex="13">
@@ -42,7 +42,7 @@
 												</div>
 											</div>
 
-											<div class="form_grid_12">
+											<div class="form_grid_12" style="margin-top:5px;">
 												<label class="field_title">Decimal Places</label>
 												<div class="form_input">
 													<select data-placeholder="choose decimal place" style=" width:300px" class="chzn-select" tabindex="13">
@@ -55,11 +55,12 @@
 												<span class="clear"></span>
 											</div>
 											
-											<div class="form_grid_12">
+											<div class="form_grid_12" style="margin-top:5px;">
 												<label class="field_title">Decimal Places for quantity</label>
 												<div class="form_input">
 													<select data-placeholder="choose decimal place for quantity" style=" width:300px" class="chzn-select" tabindex="13">
 														<option value=""></option>
+														<option>0</option>
 														<option>1</option>
 														<option>2</option>
 														<option>3</option>
@@ -68,64 +69,109 @@
 												</div>
 											</div>
 
-											<div class="form_grid_12">
-												<label class="field_title">Email</label>
+											<div class="form_grid_12" style="margin-top:5px;">
+												<label class="field_title">Document Prefix Seperator</label>
 												<div class="form_input">
-													<div class="form_grid_10 alpha">
-														<input name="firstname" type="text"/>
-														<span class=" label_intro"></span>
+														<select data-placeholder="choose document prefix seperator" style=" width:300px" class="chzn-select" tabindex="13">
+														<option value=""></option>
+														<option>-</option>
+														<option>/</option>
+														<option>\</option>
+													</select>
+													<span class="clear"></span>
+												</div>
+											</div>
+
+											<div class="form_grid_12" style="margin-top:5px;">
+												<label class="field_title">Use total without decimals (Round off amount)</label>
+												<div class="form_input">
+													<div class="form_input on_off alpha">
+														<input type="checkbox" checked="checked" id="on_off_on"/>
 													</div>
 													<span class="clear"></span>
 												</div>
 											</div>
 
-											<div class="form_grid_12">
-												<label class="field_title">Website</label>
+											<div class="form_grid_12" style="margin-top:5px;">
+												<label class="field_title">Use indian formatting for numbers</label>
 												<div class="form_input">
-													<div class="form_grid_10 alpha">
-														<input name="firstname" type="text"/>
-														<span class=" label_intro"></span>
+													<div class="form_input on_off alpha">
+														<input type="checkbox" checked="checked" id="on_off_on"/>
 													</div>
 													<span class="clear"></span>
 												</div>
 											</div>
-											</li>
-											<li>
-											<div class="form_grid_12 multiline">
-												<label class="field_title">Tax Information</label>
+
+											<div class="form_grid_12" style="margin-top:5px;">
+												<label class="field_title">Add current stock of products and keep track of inventory</label>
 												<div class="form_input">
-													<div class="form_grid_5 alpha">
-														<input name="mobile" type="text"/>
-														<span class=" label_intro">GST Number</span>
-													</div>
-													<div class="form_grid_5">
-														<input name="phone" type="text"/>
-														<span class=" label_intro">PAN Number</span>
+													<div class="form_input on_off alpha">
+														<input type="checkbox" id="on_off_on"/>
 													</div>
 													<span class="clear"></span>
 												</div>
+											</div>
+											
+											<div class="form_grid_12" style="margin-top:5px;">
+												<label class="field_title">Show Bank Details</label>
 												<div class="form_input">
-													<div class="form_grid_5 alpha">
-														<input name="mobile" type="text"/>
-														<span class=" label_intro">TIN Number</span>
+													<div class="form_grid_3" style="margin-left:0%;">
+														<div class="form_input on_off alpha">
+															<input type="checkbox" id="on_off_on"/>
+														</div>
 													</div>
-													<div class="form_grid_5">
-														<input name="phone" type="text"/>
-														<span class=" label_intro">VAT Number</span>
+													<div class="form_grid_9">
+														<label class="field_title" style="font-size:0.8rem;"><a href="javascript:void(0);">Edit bank details</a></label>
 													</div>
 													<span class="clear"></span>
 												</div>
+											</div>
+											
+											<div class="form_grid_12" style="margin-top:5px;">
+												<label class="field_title">Primary Signature</label>
 												<div class="form_input">
 													<div class="form_grid_5 alpha">
-														<input name="mobile" type="text"/>
-														<span class=" label_intro">Service Tax Number</span>
+														<input name="mobile" type="text" placeholder="Provider Signature"/>
+													</div>
+													<span class="clear"></span>
+												</div>
+											</div>
+											
+											<div class="form_grid_12" style="margin-top:5px;">
+												<label class="field_title">Secondary Signature</label>
+												<div class="form_input">
+													<div class="form_grid_5 alpha">
+														<input name="mobile" type="text" placeholder="Receiver Signature"/>
+													</div>
+													<span class="clear"></span>
+												</div>
+											</div>
+											
+											<div class="form_grid_12" style="margin-top:5px;">
+												<label class="field_title">Your Signature</label>
+												<div class="form_input">
+														<div class="uploader" id="uniform-undefined">
+															<input name="file01" type="file" size="19" style="opacity: 0;">
+															<span class="filename">No file selected</span>
+															<span class="action">Choose File</span>
+														</div>
+														<span class=" label_intro">This signature will appear in the documents(invoices,quotes,etc.)<br/>Preferred image size: 240px x 80px, @72 DPI</span>
+													<span class="clear"></span>
+													
+												</div>
+											</div>
+
+											<div class="form_grid_12" style="margin-top:5px;">
+												<label class="field_title">End financial year on</label>
+												<div class="form_input">
+													<div class=" form_grid_2 alpha">
+														<input name="filed30" type="text" class="datepicker"/>
 													</div>
 													<span class="clear"></span>
 												</div>
 											</div>
 											</li>
 										</ul>
-									
 									</li>
 								</ul>
 							</div>

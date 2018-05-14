@@ -425,6 +425,59 @@
 									</li>
 								</ul>
 							</div>
+							<div class="">
+								<ul>
+									<li>
+									<fieldset>
+										<legend>Bank Details</legend>
+										<ul>
+											<li>
+												<div class="form_grid_12">
+													<label class="field_title">Bank Name</label>
+													<div class="form_input">
+														<div class="form_grid_10 alpha">
+															<input name="firstname" type="text"/>
+															<span class=" label_intro"></span>
+														</div>
+														<span class="clear"></span>
+													</div>
+												</div>
+												<div class="form_grid_12">
+													<label class="field_title">Branch Name</label>
+													<div class="form_input">
+														<div class="form_grid_10 alpha">
+															<input name="firstname" type="text"/>
+															<span class=" label_intro"></span>
+														</div>
+														<span class="clear"></span>
+													</div>
+												</div>
+												<div class="form_grid_12">
+													<label class="field_title">Account Number</label>
+													<div class="form_input">
+														<div class="form_grid_10 alpha">
+															<input name="firstname" type="text"/>
+															<span class=" label_intro"></span>
+														</div>
+														<span class="clear"></span>
+													</div>
+												</div>
+												<div class="form_grid_12">
+													<label class="field_title">IFSC Code</label>
+													<div class="form_input">
+														<div class="form_grid_10 alpha">
+															<input name="firstname" type="text"/>
+															<span class=" label_intro"></span>
+														</div>
+														<span class="clear"></span>
+													</div>
+												</div>
+											</li>
+										</ul>
+									</fieldset>
+									</li>
+								</ul>
+							</div>
 							<ul>
 								<li>
 								<div class="form_grid_12 full_block">
