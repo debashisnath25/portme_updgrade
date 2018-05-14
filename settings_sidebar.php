@@ -3,12 +3,12 @@
 		<ul id="sidenav" class="accordion_mnu collapsible ui-sortable">
 			<li><a href="#"><span class="nav_icon computer_imac"></span> General<span class="up_down_arrow">&nbsp;</span></a>
 			<ul class="acitem" style="display: none;">
-				<li><a href="general.php"><span class="list-icon">&nbsp;</span>General</a></li>
+				<li><a href="general_settings.php"><span class="list-icon">&nbsp;</span>General</a></li>
 			</ul>
 			</li>
 			<li><a href="#"><span class="nav_icon list_images"></span> Company<span class="up_down_arrow">&nbsp;</span></a>
 			<ul class="acitem" style="display: none;">
-				<li><a href="settings.php"><span class="list-icon">&nbsp;</span>Profile</a></li>
+				<li><a href="profile_settings.php"><span class="list-icon">&nbsp;</span>Profile</a></li>
 				<li><a href="account_settings.php"><span class="list-icon">&nbsp;</span>Account</a></li>
 				<li><a href="tax_settings.php"><span class="list-icon">&nbsp;</span>Tax</a></li>
 			</ul>

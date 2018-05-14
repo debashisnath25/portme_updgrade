@@ -48,7 +48,7 @@
 			<li><a href="#"><span class="stats_icon calendar_sl"></span><span class="label">Bills</span></a></li>
 			<li><a href="#"><span class="stats_icon lightbulb_sl"></span><span class="label">Expenses</span></a></li>
 			<li><a href="#"><span class="stats_icon config_sl"></span><span class="label">Analytics</span></a></li>
-			<li><a href="settings.php"><span class="stats_icon config_sl"></span><span class="label">Settings</span></a></li>
+			<li><a href="profile_settings.php"><span class="stats_icon config_sl"></span><span class="label">Settings</span></a></li>
 			<li><a href="#"><span class="stats_icon config_sl"></span><span class="label">Port Store</span></a></li>
 		</ul>
 	</div>
